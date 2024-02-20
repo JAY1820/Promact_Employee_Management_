@@ -27,7 +27,6 @@ This application is built using React and Redux to manage employee information, 
 2. Access the application in your browser: `http://localhost:3000` (default port)
 
 ## Project Structure
-
 <!DOCTYPE html>
 <html>
 <body>
