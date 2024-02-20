@@ -2,8 +2,7 @@
 
 This application is built using React and Redux to manage employee information, offering functionalities for adding, listing, editing, and deleting employees. It leverages Redux for efficient state management and data handling.
 
-# Live Demo
- [Live Page](https://employeesmanagment.netlify.app/)
+# Live Demo  - [Live Page](https://employeesmanagment.netlify.app/)
 
 ## Features
 
