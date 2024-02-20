@@ -1,0 +1,656 @@
+/*
+ * General Styling
+ */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*
+ * Body Styling
+ */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  background-position: center;
+  background-size: cover;
+  background-color: #232f3e; 
+}
+
+/*
+ * Main Elements
+ */
+main {
+  display: block;
+}
+
+/*
+ * Headings and Text-level Semantics
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  color: #ff9900;
+}
+
+/*
+ * Grouping Content
+ */
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/*
+ * Text-level Semantics
+ */
+a {
+  background-color: transparent;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+ * Embedded Content
+ */
+img {
+  border-style: none;
+}
+
+/*
+ * Forms
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+/*
+ * Interactive
+ */
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+/*
+ * Misc
+ */
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+/*
+ * Box Sizing
+ */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+figure {
+  margin: 0;
+}
+
+/*
+ * Scaffolding
+ */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font: normal normal normal 1rem/1.6 -apple-system, BlinkMacSystemFont,
+    Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+
+body {
+  color: #404040;
+  font-size: 1rem;
+  line-height: 1.6;
+  background: linear-gradient(to right, #f0f8ff, hsl(200, 92%, 85%));
+  margin: 0 5%;
+}
+
+/*
+ * Headings and Text
+ */
+p,
+ol,
+ul,
+dl,
+table {
+  margin: 0 0 1.5rem 0;
+}
+
+ul li ul,
+ol li ol {
+  margin-bottom: 0;
+}
+
+/*
+ * Heading Styles
+ */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 1.5rem 0;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
+  line-height: 1.2;
+  color: #404040;
+}
+
+h1:not(:first-child),
+h2:not(:first-child),
+h3:not(:first-child),
+h4:not(:first-child),
+h5:not(:first-child) {
+  margin: 1.5rem 0;
+}
+
+h1:not(:first-child),
+h2:not(:first-child),
+h3:not(:first-child) {
+  margin-top: 2rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+/*
+ * Media Queries
+ */
+@media (min-width: 600px) {
+  h1:not(:first-child),
+  h2:not(:first-child),
+  h3:not(:first-child) {
+    margin-top: 2.5rem;
+  }
+  h1 {
+    font-size: 2.25rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1.25rem;
+  }
+}
+
+/*
+ * Links
+ */
+a {
+  color: #0366ee;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #0246a2;
+  text-decoration: underline;
+}
+
+/*
+ * Marked Text
+ */
+mark {
+  background: #ffeea8;
+  padding: 0 0.2rem;
+}
+
+/*
+ * Blockquotes
+ */
+blockquote {
+  margin: 0 0 1.5rem 0;
+  border-left: 16px solid #070707;
+  padding: 0 1.5rem;
+  font-size: 1.5rem;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  text-align: right;
+}
+
+/*
+ * Code and Preformatted Text
+ */
+pre {
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  padding: 1rem;
+  tab-size: 2;
+  color: #404040;
+  font-family: Menlo, monospace;
+  font-size: 14px;
+  margin: 0 0 1.5rem 0;
+}
+
+pre code {
+  font-family: Menlo, monospace;
+  line-height: 1.2;
+}
+
+kbd {
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+  color: #333;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 1.4;
+  padding: 0.2rem 0.5rem;
+  white-space: nowrap;
+}
+
+/*
+ * Tables
+ */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+th {
+  background-color: #f9f9f9;
+}
+
+/*
+ * Buttons
+ */
+button,
+.button,
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+  background-color: #232f3e;
+  color: #0b0a07;
+  animation: buttonAnimation 0.5s ease;
+}
+
+/*
+ * Buttons with Glass Morphism Effect
+ */
+button,
+.button,
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  animation: buttonAnimation 0.5s ease;
+}
+
+/*
+ * Miscellaneous
+ */
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+@keyframes buttonAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*
+ * Set Width for Add, Edit, and Cancel Buttons
+ */
+.add-btn,
+.edit-btn {
+  width: 150px;
+}
+
+/*
+ * Form Styles
+ */
+form {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #404040;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  transition: border 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border: 1px solid #3498db;
+}
+
+/*
+ * Responsive Images
+ */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+ * Visibility Classes
+ */
+.hidden {
+  display: none !important;
+}
+
+.visible {
+  display: block !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Flexbox Grid
+ */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+/*
+ * Clearing Floats
+ */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+/*
+ * Custom Button Hover Effect
+ */
+button:hover,
+.button:hover,
+.btn:hover {
+  /* Change background color on hover */
+  background-color: #ff9900;
+  /* Change text color on hover */
+  color: #fff;
+}
+
+/* Additional button styles */
+.btn-secondary {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.btn-success {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.btn-warning {
+  background-color: #f1c40f;
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+/* Button with larger size */
+.btn-lg {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+}
+
+/* Button with smaller size */
+.btn-sm {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.875rem;
+}
+
+/* Button with rounded corners */
+.btn-rounded {
+  border-radius: 50px;
+}
+
+/* Button with outline style */
+.btn-outline {
+  border: 2px solid transparent;
+  background-color: transparent;
+}
+
+.btn-outline:hover {
+  background-color: #f0f0f0;
+}
+
+/* Disabled button styles */
+button[disabled],
+.button[disabled],
+.btn[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
