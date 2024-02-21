@@ -1,7 +1,7 @@
 import React from "react";
 
 /**
- * Renders the header component for the employee management application.
+ * Renders the header component for the Employee Details application.
  *
  * - A function to set the state for adding a new employee.
  * @param {function} setIsAdding 
@@ -10,7 +10,7 @@ import React from "react";
 function Header({ setIsAdding }) {
   return (
     <header>
-      <h1>Employee Management</h1>
+      <h1 style={{ textAlign: "center", fontSize: "2em" }}>Employee Details</h1>
       <div style={{ marginTop: "25px", marginBottom: "18px" }}>
         <button onClick={() => setIsAdding(true)} className="round-button">
           Add Button

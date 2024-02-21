@@ -10,7 +10,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { deleteEmployee } from "../../redux";
 
 /**
- * Renders the main dashboard component for the employee management application.
+ * Renders the main dashboard component for the Employee Details application.
  *
  * @returns {JSX.Element} The dashboard component JSX element.
  */
