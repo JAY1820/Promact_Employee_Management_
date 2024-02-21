@@ -1,4 +1,4 @@
-# Employee Management Application
+# Employee Details Application
 
 This application is built using React and Redux to manage employee information, offering functionalities for adding, listing, editing, and deleting employees. It leverages Redux for efficient state management and data handling.
 
