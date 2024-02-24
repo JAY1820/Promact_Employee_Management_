@@ -15,7 +15,6 @@ This application is built using React and Redux to manage employee information, 
 
 - **React**: The JavaScript library for building user interfaces.
 - **Redux**: The state management library for predictable and centralized application state.
-- **Redux Toolkit**: Simplifies the creation of Redux logic with reducers, actions, and middleware.
 - **React Router**: Facilitates navigation between different application pages using routes.
 
 ## Installation
