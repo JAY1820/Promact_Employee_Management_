@@ -24,7 +24,7 @@ This application is built using React and Redux to manage employee information, 
 
 ## Running the Application
 
-1. Start the development server: `npm start` 
+1. Start the development server: `npm run start` 
 2. Access the application in your browser: `http://localhost:3000` (default port)
 
 ## Project Structure
