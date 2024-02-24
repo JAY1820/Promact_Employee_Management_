@@ -20,11 +20,11 @@ This application is built using React and Redux to manage employee information, 
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/JAY1820/Promact_Employee_Management_`
-2. Install dependencies: `npm install` or `yarn install`
+2. Install dependencies: `npm install` 
 
 ## Running the Application
 
-1. Start the development server: `npm start` or `yarn start`
+1. Start the development server: `npm start` 
 2. Access the application in your browser: `http://localhost:3000` (default port)
 
 ## Project Structure
